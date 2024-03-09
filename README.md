@@ -1,7 +1,7 @@
 # Tool Manager - V 1.0
 
 ## Descrição do Projeto
-O Tool Manager é uma ferramenta de gerenciamento de ferramentas para organizar e acompanhar o estoque de várias ferramentas da empresa.
+O Tool Manager é um sistema de gerenciamento de ferramentas para organizar e acompanhar o estoque de várias ferramentas da empresa.
 
 ## Funcionalidades Principais
 1. **Cadastro de Ferramentas**: Cadastrar as ferramentas;
