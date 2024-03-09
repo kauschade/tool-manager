@@ -48,7 +48,7 @@
 <body>
     <div class="login-container">
         <script>
-            let atualizacao = "S"; //caso S atualização em andamento e não é possivel acessar o sistema
+            let atualizacao = ""; //caso S atualização em andamento e não é possivel acessar o sistema
             
             if (atualizacao === "S") {
                 alert ("SISTEMA EM MANUTENÇÃO!"); 
