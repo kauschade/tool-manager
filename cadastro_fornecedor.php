@@ -6,6 +6,8 @@
 
     include('./funcoes/config.php');
 
+    $user = $_SESSION["usuario"];
+
     $sql = "SELECT * FROM ferramentas";
     $con = $conn->query($sql) or die($conn->error);
 
@@ -41,7 +43,7 @@
 </head>
 <body>
 <header id="header">
-        <p id="logo"><b>Horizon:</b> Tool Manager</p>
+        <p id="logo"><b>Prime Usinagens:</b> Tool Manager</p>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">Menu
