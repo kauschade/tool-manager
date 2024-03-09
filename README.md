@@ -12,7 +12,7 @@ O Tool Manager é uma ferramenta de gerenciamento de ferramentas para organizar 
 ## Instalação
 1. **Clone o Repositório**;
 2. **Referencie o seu banco de dados no arquivo `config.php` dentro da pasta `funcoes`**;
-3. **Execute o arquivo para criar o banco e as tabelas `estrutura.php` que está dentro da pasta `funcoes`**;
+3. **Execute o arquivo para criar e as tabelas `estrutura.php` que está dentro da pasta `funcoes`**;
 4. **Será criado um usuário `ACESSO` com a senha `123456` com o tipo dev use para logar no sistema**.
 
 ## Tecnologias Utilizadas
