@@ -6,6 +6,8 @@
 
     include('./funcoes/config.php');
 
+    $user = $_SESSION["usuario"];
+
     $consulta_codigo_antigo = "SELECT Max(id) as max_id FROM usuarios";
     $codigo_antigo_resultado = $conn->query($consulta_codigo_antigo) or die($conn->error);
     $codigo_antigo = $codigo_antigo_resultado->fetch_assoc()['max_id']; 
@@ -32,15 +34,15 @@
 </head>
 <body>
 <header id="header">
-        <p id="logo"><b>Hozizon:</b> Tool Manager</p>
+        <p id="logo"><b>Prime Usinagens:</b> Tool Manager</p>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">Menu
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a class="link-cab" id="ativo" href="./index.php">Home</a></li>
-                <li><a class="link-cab" href="./alterarsenha.php">Alterar Senha</a></li>
+                <li><a class="link-cab"  href="./index.php">Home</a></li>
+                <li><a class="link-cab" id="ativo" href="./alterarsenha.php">Alterar Senha</a></li>
                 <li><a class="link-cab"  href="./adicionar-baixar.php">Add/Rem Ferramentas Estoque</a></li>
                 <?php
                     if($qtd2 > 0) {
