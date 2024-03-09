@@ -6,6 +6,8 @@
 
     include('./funcoes/config.php');
 
+    $user = $_SESSION["usuario"];
+
     // Consultar o maior ID na tabela
     $sql = "SELECT MAX(id) AS max_id FROM fornecedores";
     $result = $conn->query($sql);
@@ -58,7 +60,7 @@
 </head>
 <body>
 <header id="header">
-        <p id="logo"><b>Horizon:</b> Tool Manager</p>
+        <p id="logo"><b>Prime Usinagens:</b> Tool Manager</p>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">Menu
