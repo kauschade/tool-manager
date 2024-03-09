@@ -1,0 +1,161 @@
+/* Cabeçalho */
+
+body,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.link-cab {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+p {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.link-cab:hover {
+    transition: .4s;
+    background: orange;
+    border-radius: 5px;
+    color: #fff!important;
+}
+
+.link-cab#semanimacao:hover {
+    transition: .4s;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff!important;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #18191b;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#ativo {
+    color: orange;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        right: 0px;
+        background: #18191b;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 100px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        color: #fff;
+    }
+
+    #ativo {
+        color: orange!important;
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        color: #fff;
+    }
+
+    #hamburger {
+        color: #fff;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
+
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 1%;
+    position: bottom;
+    height: 130px;
+}
+
+#footer a {
+    background: transparent;
+}
+
+#footer a:hover {
+    color: rgb(156, 102, 0)!important;
+}

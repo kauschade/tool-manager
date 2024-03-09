@@ -1,0 +1,68 @@
+.popups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o popup */
+}
+
+.popup {
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.btn-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    background-color: #151515;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    padding: 10px 0;
+
+    transition: .5s;
+}
+
+.btn-popup:hover {
+    background-color: limegreen;
+    border: 1px solid #151515;
+    cursor: pointer;
+}
+
+a.a-cad {
+    text-decoration: none;
+    color: white
+}
+
+.icon-popup-btn {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.txt-popup-btn {
+    font-size: 16px;
+}
+
+.escondido {
+    display: none;
+}
+
+.sair-msg {
+    margin-top: 20px;
+}
+
+.abrir-msg {
+    margin-top: 10px;
+}
