@@ -4,6 +4,8 @@
         print "<script>location.href='./login.php';</script>";
     }
 
+    $user = $_SESSION["usuario"];
+
     include('./funcoes/config.php');
 
     $sql = "SELECT * FROM ferramentas";
@@ -32,7 +34,7 @@
 </head>
 <body>
 <header id="header">
-        <p id="logo"><b>Horizon:</b> Tool Manager</p>
+        <p id="logo"><b>Prime Usinagens:</b> Tool Manager</p>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">Menu
