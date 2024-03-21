@@ -22,4 +22,4 @@ O Tool Manager é um sistema de gerenciamento de ferramentas para organizar e ac
 - PHP
 - SQL
 
-© 2024 Horizon Sistemas
+DISPONÍVEL PARA USO NÃO PROFISSIONAL!
