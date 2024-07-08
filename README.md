@@ -16,10 +16,6 @@ O Tool Manager é um sistema de gerenciamento de ferramentas para organizar e ac
 4. **Será criado um usuário `ACESSO` com a senha `123456` com o tipo dev use para logar no sistema**.
 
 ## Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
-- PHP
-- SQL
+[![tec](https://skillicons.dev/icons?i=php,html,css,js,mysql)](https://skillicons.dev)
 
 DISPONÍVEL PARA USO NÃO PROFISSIONAL!
