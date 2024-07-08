@@ -18,3 +18,6 @@ O Tool Manager é um sistema de gerenciamento de ferramentas para organizar e ac
 
 ### Tecnologias Utilizadas
 [![tec](https://skillicons.dev/icons?i=php,html,css,js,mysql)](https://skillicons.dev)
+
+<p align="center">Feito com ❤️ por <a href="https://devkau.com">devKau</a>.</p>
+<p align="center">© 2024 devKau all rights reserved.</p>
